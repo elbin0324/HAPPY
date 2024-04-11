@@ -1,0 +1,62 @@
+body {
+    text-align: center; /* Centers content in the body */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    overflow-x: hidden; /* Disables horizontal scrolling */
+}
+
+.main-image {
+    max-width: 100%; /* Set the maximum width of the images to 100% */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures images are treated as block-level elements */
+    margin: 0 auto 15px; /* Center images horizontally with 15px margin at the bottom */
+}
+
+.sub-image {
+    max-width: 50%; /* Set the maximum width of the sub-images to 50% */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures images are treated as block-level elements */
+    margin: 0 auto 15px; /* Center sub-images horizontally with 15px margin at the bottom */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.sub-image:last-child {
+    margin-bottom: 20px; /* Add some space between the last sub-image and the button container */
+}
+
+.button-container {
+    display: flex; /* Use flexbox for the button container */
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 20px; /* Add some space above the button container */
+}
+
+.button-container a {
+    display: inline-block; /* Ensure the link takes only the necessary space */
+    margin: 10px; /* Add margin around the links */
+}
+
+.button-image {
+    width: 50%; /* Set the width of the button images to 50% of their original size */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align the images vertically */
+}
+
+.disclaimer-space {
+    height: 200px; /* Adjust the height as needed */
+}
+
+.disclaimer-image {
+    max-width: 75%; /* Set the maximum width of the disclaimer image to 75% */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures image is treated as block-level element */
+    margin: 20px auto; /* Center disclaimer image horizontally with 20px margin at the top and bottom */
+}
+
+.custom-text {
+    font-family: "Architects Daughter", cursive; /* Set the font-family to "Architects Daughter" */
+    color: #000000; /* Set the color to black */
+    margin-top: 10px; /* Add some space between the main image and the text */
+    font-size: 2em; /* Set the font size to be four times larger */
+}
+
+
