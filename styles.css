@@ -36,7 +36,7 @@ body {
 }
 
 .button-image {
-    width: 50%; /* Set the width of the button images to 50% of their original size */
+    width: 75%; /* Set the width of the button images to 50% of their original size */
     height: auto; /* Maintain aspect ratio */
     vertical-align: middle; /* Align the images vertically */
 }
