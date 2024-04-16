@@ -9,7 +9,7 @@ body {
     max-width: 100%; /* Set the maximum width of the images to 100% */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensures images are treated as block-level elements */
-    margin: 0 auto 15px; /* Center images horizontally with 15px margin at the bottom */
+    margin: 0 auto; /* Center images horizontally with no top or bottom margin */
 }
 
 .sub-image {
