@@ -55,9 +55,9 @@ html, body {
 
 .custom-text {
     font-family: "Architects Daughter", cursive; /* Custom font for the text */
-    color: #000000; /* Black color for the text */
+    color: #FFFFFF; /* Black color for the text */
     margin-top: 10px; /* Space above the text */
-    font-size: 1.5em; /* Size of the text */
+    font-size: 3.5em; /* Size of the text */
 }
 
 /* Ensure no unexpected padding or margin in potential parent elements */
