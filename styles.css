@@ -1,8 +1,9 @@
-body {
-    text-align: center; /* Centers content in the body */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
+html, body {
+    margin: 0;
+    padding: 0;
     overflow-x: hidden; /* Disables horizontal scrolling */
+    background-color: #5a9748; /* Sets the background color of the entire page */
+    text-align: center; /* Centers content in the body */
 }
 
 .main-image {
@@ -36,7 +37,7 @@ body {
 }
 
 .button-image {
-    width: 75%; /* Set the width of the button images to 50% of their original size */
+    width: 75%; /* Set the width of the button images to 75% of their original size */
     height: auto; /* Maintain aspect ratio */
     vertical-align: middle; /* Align the images vertically */
 }
@@ -53,20 +54,10 @@ body {
 }
 
 .custom-text {
-    font-family: "Architects Daughter", cursive;
-    color: #000000;
-    margin-top: 10px;
-    font-size: 1.5em; /* Adjust this value as needed to increase/decrease size */
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Disables horizontal scrolling */
-}
-
-body {
-    text-align: center; /* Centers content in the body */
+    font-family: "Architects Daughter", cursive; /* Custom font for the text */
+    color: #000000; /* Black color for the text */
+    margin-top: 10px; /* Space above the text */
+    font-size: 1.5em; /* Size of the text */
 }
 
 /* Ensure no unexpected padding or margin in potential parent elements */
@@ -74,5 +65,3 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
