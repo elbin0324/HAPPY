@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Disables horizontal scrolling */
-    background-color: #43983e; /* Sets the background color of the entire page */
+    background-color: #43983e; /* Sets the background color of the entire page green */
     text-align: center; /* Centers content in the body */
 }
 
