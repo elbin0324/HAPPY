@@ -22,7 +22,7 @@ html, body {
 }
 
 .sub-image:last-child {
-    margin-bottom: 20px; /* Add some space between the last sub-image and the button container */
+    margin-bottom: 30px; /* Add some space between the last sub-image and the button container */
 }
 
 .button-container {
@@ -60,8 +60,3 @@ html, body {
     font-size: 3.5em; /* Size of the text */
 }
 
-/* Ensure no unexpected padding or margin in potential parent elements */
-.container, .wrapper, header, footer, section, article {
-    margin: 0;
-    padding: 0;
-}
