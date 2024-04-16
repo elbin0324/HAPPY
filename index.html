@@ -1,36 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-    <title>$YE on Base</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- main image -->
-    <img src="Untitled4.PNG" alt="$YE Banner" class="main-image">
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Disables horizontal scrolling */
+    background-color: #5a9748; /* Sets the background color of the entire page */
+    text-align: center; /* Centers content in the body */
+}
 
-    <p class="custom-text">CA: 0x52773A93651A978D5998153798270daaC21603e4</p>
-    
-    <!-- Displaying the secondary image "banner2.png" -->
-    <img src="banner2.png" alt="Banner 2" class="sub-image">
-    
-    <!-- Displaying the tertiary image "briefintro.png" -->
-    <img src="briefintro.png" alt="Brief Intro" class="sub-image">
+.main-image {
+    max-width: 100%; /* Set the maximum width of the images to 100% */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures images are treated as block-level elements */
+    margin: 0 auto; /* Center images horizontally with no top or bottom margin */
+}
 
-    <!-- Links with images -->
-    <div class="button-container">
-        <a href="https://t.me/alcoholicunicorn">
-            <img src="button2.png" alt="Button 2" class="button-image">
-        </a>
-        <a href="https://twitter.com/alcounicorn">
-            <img src="button3.png" alt="Button 3" class="button-image">
-        </a>
-        <a href="https://dexscreener.com/base/0xb510996f27812864c4c666edfcfaef050017e536">
-            <img src="button1.png" alt="Button 1" class="button-image">
-        </a>
-    </div>
-    <div class="disclaimer-space"></div>
-    <img src="disclaimer.png" alt="Disclaimer" class="disclaimer-image">
-</body>
-</html>
+.sub-image {
+    max-width: 50%; /* Set the maximum width of the sub-images to 50% */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures images are treated as block-level elements */
+    margin: 0 auto 15px; /* Center sub-images horizontally with 15px margin at the bottom */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.sub-image:last-child {
+    margin-bottom: 20px; /* Add some space between the last sub-image and the button container */
+}
+
+.button-container {
+    display: flex; /* Use flexbox for the button container */
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 20px; /* Add some space above the button container */
+}
+
+.button-container a {
+    display: inline-block; /* Ensure the link takes only the necessary space */
+    margin: 10px; /* Add margin around the links */
+}
+
+.button-image {
+    width: 75%; /* Set the width of the button images to 75% of their original size */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align the images vertically */
+}
+
+.disclaimer-space {
+    height: 200px; /* Adjust the height as needed */
+}
+
+.disclaimer-image {
+    max-width: 75%; /* Set the maximum width of the disclaimer image to 75% */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures image is treated as block-level element */
+    margin: 20px auto; /* Center disclaimer image horizontally with 20px margin at the top and bottom */
+}
+
+.custom-text {
+    font-family: "Architects Daughter", cursive; /* Custom font for the text */
+    color: #000000; /* Black color for the text */
+    margin-top: 10px; /* Space above the text */
+    font-size: 1.5em; /* Size of the text */
+}
+
+/* Ensure no unexpected padding or margin in potential parent elements */
+.container, .wrapper, header, footer, section, article {
+    margin: 0;
+    padding: 0;
+}
