@@ -59,5 +59,20 @@ body {
     font-size: 1.5em; /* Adjust this value as needed to increase/decrease size */
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Disables horizontal scrolling */
+}
+
+body {
+    text-align: center; /* Centers content in the body */
+}
+
+/* Ensure no unexpected padding or margin in potential parent elements */
+.container, .wrapper, header, footer, section, article {
+    margin: 0;
+    padding: 0;
+}
 
 
