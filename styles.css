@@ -21,10 +21,6 @@ html, body {
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-.sub-image:last-child {
-    margin-bottom: 30px; /* Add some space between the last sub-image and the button container */
-}
-
 .button-container {
     display: flex; /* Use flexbox for the button container */
     justify-content: center; /* Center the buttons horizontally */
