@@ -10,7 +10,7 @@ html, body {
     max-width: 100%; /* Set the maximum width of the images to 100% */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensures images are treated as block-level elements */
-    margin: 0 auto 30px ; /* Center images horizontally with no top or bottom margin */
+    margin: 0 auto 15px ; /* Center images horizontally with no top or bottom margin */
 }
 
 .sub-image {
@@ -28,7 +28,6 @@ html, body {
 .button-container {
     display: flex; /* Use flexbox for the button container */
     justify-content: center; /* Center the buttons horizontally */
-    margin-top: 20px; /* Add some space above the button container */
 }
 
 .button-container a {
