@@ -16,7 +16,7 @@ html, body {
 }
 
 .main-image {
-    width: 100%; /* Ensure the image stretches to fill the width of the viewport */
+    width: auto; /* Ensure the image stretches to fill the width of the viewport */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensures images are treated as block-level elements */
     margin: 0 auto; /* Center images horizontally with no vertical margins */
