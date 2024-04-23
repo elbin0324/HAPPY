@@ -7,12 +7,10 @@ html, body {
 }
 .header-image {
     /* This makes the image stay at the top and not move on scroll */
-    position: fixed;
+   position: fixed;
     top: 0;
     left: 0;
-    width: 100%;  /* This makes the image stretch across the screen. Adjust as necessary */
-    height: 100px; /* Set a fixed height or adjust as necessary */
-    z-index: 1000;  /* Ensures the header is above other content */
+    z-index: 1000;
 }
 .main-image {
     max-width: 100%; /* Set the maximum width of the images to 100% */
