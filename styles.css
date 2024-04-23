@@ -33,7 +33,7 @@ html, body {
 .button-container {
     display: flex; /* Use flexbox for the button container */
     justify-content: center; /* Center the buttons horizontally */
-    margin-top: 150px;
+    margin-top: 25px;
 }
 
 .button-container a {
