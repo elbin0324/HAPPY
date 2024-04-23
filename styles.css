@@ -5,22 +5,18 @@ html, body {
     background-color: #f0f2f5; /* Sets the background color of the entire page white */
     text-align: center; /* Centers content in the body */
 }
+
 .header-image {
-    /* This makes the image stay at the top and not move on scroll */
-    position: fixed;
+    position: fixed; /* Keeps the image at the top and not moving on scroll */
     top: 0;
     left: 0;
     z-index: 1000;
-
-    /* This will make the image fit the width of the page */
-    width: 100%;    /* Sets the image width to cover the full width of the viewport */
-    height: auto;   /* Scales the height automatically based on the width */
-
-    /* No scaling down is needed, removed the transform property */
+    width: 100%; /* Sets the image width to cover the full width of the viewport */
+    height: auto; /* Scales the height automatically based on the width */
 }
 
 .main-image {
-    max-width: 100%; /* Set the maximum width of the images to 100% */
+    width: 100%; /* Ensure the image stretches to fill the width of the viewport */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensures images are treated as block-level elements */
     margin: 0 auto; /* Center images horizontally with no vertical margins */
@@ -64,8 +60,7 @@ html, body {
 
 .custom-text {
     font-family: "Architects Daughter", cursive; /* Custom font for the text */
-    color: #FFFFFF; /* Black color for the text */
+    color: #FFFFFF; /* White color for the text */
     margin-top: 10px; /* Space above the text */
     font-size: 3.0em; /* Size of the text */
 }
-
