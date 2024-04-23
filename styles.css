@@ -59,8 +59,10 @@ html, body {
 }
 
 .custom-text {
-    font-family: "Architects Daughter", cursive; /* Custom font for the text */
+    font-family: 'Montserrat', sans-serif; /* Now using Montserrat */
     color: #FFFFFF; /* White color for the text */
     margin-top: 10px; /* Space above the text */
     font-size: 3.0em; /* Size of the text */
+    font-weight: 700; /* Bold weight to match the bold style of Klavika */
 }
+
