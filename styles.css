@@ -22,6 +22,16 @@ html, body {
     margin: 0 auto; /* Center images horizontally with no vertical margins */
 }
 
+/* Responsive styling for mobile devices */
+@media (max-width: 768px) {
+    .main-image {
+        width: 200%; /* Double the width of the image */
+        position: relative; /* Needed to adjust positioning */
+        left: 50%; /* Move to the right to the middle of the image */
+        transform: translateX(-50%); /* Pull back to center the visible part */
+    }
+}
+
 .sub-image {
     max-width: 50%; /* Set the maximum width of the sub-images to 50% */
     height: auto; /* Maintain aspect ratio */
@@ -64,5 +74,6 @@ html, body {
     margin-top: 10px; /* Space above the text */
     font-size: 2.0em; /* Size of the text */
 }
+
 
 
