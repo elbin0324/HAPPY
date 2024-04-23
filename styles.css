@@ -5,7 +5,15 @@ html, body {
     background-color: #FFFFFF; /* Sets the background color of the entire page white */
     text-align: center; /* Centers content in the body */
 }
-
+.header-image {
+    /* This makes the image stay at the top and not move on scroll */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  /* This makes the image stretch across the screen. Adjust as necessary */
+    height: 100px; /* Set a fixed height or adjust as necessary */
+    z-index: 1000;  /* Ensures the header is above other content */
+}
 .main-image {
     max-width: 100%; /* Set the maximum width of the images to 100% */
     height: auto; /* Maintain aspect ratio */
