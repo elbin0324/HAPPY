@@ -11,6 +11,8 @@ html, body {
     top: 0;
     left: 0;
     z-index: 1000;
+    transform: scale(0.5);  /* Scales the image to 50% of its original size */
+    transform-origin: top left; 
 }
 .main-image {
     max-width: 100%; /* Set the maximum width of the images to 100% */
