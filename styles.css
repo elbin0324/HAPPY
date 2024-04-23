@@ -7,13 +7,18 @@ html, body {
 }
 .header-image {
     /* This makes the image stay at the top and not move on scroll */
-   position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
-    transform: scale(0.5);  /* Scales the image to 50% of its original size */
-    transform-origin: top left; 
+
+    /* This will make the image fit the width of the page */
+    width: 100%;    /* Sets the image width to cover the full width of the viewport */
+    height: auto;   /* Scales the height automatically based on the width */
+
+    /* No scaling down is needed, removed the transform property */
 }
+
 .main-image {
     max-width: 100%; /* Set the maximum width of the images to 100% */
     height: auto; /* Maintain aspect ratio */
