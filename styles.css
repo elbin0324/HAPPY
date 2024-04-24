@@ -26,6 +26,8 @@ html, body {
 @media (max-width: 600px) {
     .main-image {
         content: url('basebookmobile(3).png'); /* Change to mobile image on small screens */
+           width: 100%;
+        height: auto;
     }
 }
 
