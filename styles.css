@@ -5,6 +5,7 @@ html, body {
     background-color: #f0f2f5; /* Sets the background color of the entire page white */
     text-align: center; /* Centers content in the body */
 }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 .header-image {
     position: fixed; /* Keeps the image at the top and not moving on scroll */
@@ -26,7 +27,7 @@ html, body {
 @media (max-width: 600px) {
     .main-image {
         content: url('basebookmobile(3).png'); /* Change to mobile image on small screens */
-           width: 125%;
+           width: 150%;
         height: auto;
     }
 }
