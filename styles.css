@@ -22,13 +22,10 @@ html, body {
     margin: 0 auto; /* Center images horizontally with no vertical margins */
 }
 
-/* Responsive styling for mobile devices */
-@media (max-width: 768px) {
+/* Mobile device styles */
+@media (max-width: 600px) {
     .main-image {
-        width: 200%; /* Double the width of the image */
-        position: relative; /* Needed to adjust positioning */
-        left: 50%; /* Move to the right to the middle of the image */
-        transform: translateX(-50%); /* Pull back to center the visible part */
+        content: url('Basebookmobile.png'); /* Change to mobile image on small screens */
     }
 }
 
