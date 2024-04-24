@@ -65,11 +65,25 @@ html, body {
     margin: 20px auto; /* Center disclaimer image horizontally with 20px margin at the top and bottom */
 }
 
+.custom-link {
+    text-decoration: none; /* Removes the underline from all custom links */
+    font-size: 1.0em; /* Sets a base font size for all custom links */
+}
+
+.renounced-link {
+    color: #FFFFFF; /* Sets a blue color for the Renounced Txn link */
+}
+
+.burnt-link {
+    color: #FFFFFF; /* Sets a red color for the Burnt Txn link */
+}
+
 .custom-text {
-    font-family: 'Open Sans', sans-serif; /* Use Open Sans */
-    color: #1877f2; /* Set text color */
-    margin: 50px auto; /* Increase vertical margin to 50px to space out from both buttons and disclaimer */
-    font-size: 2.0em; /* Set text size */
+    font-family: 'Open Sans', sans-serif;
+    color: #1877f2;
+    margin: 50px auto;
+    font-size: 2.0em;
+    text-align: center; /* Ensures all text in the paragraph is centered */
 }
 
 
