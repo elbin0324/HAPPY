@@ -71,11 +71,11 @@ html, body {
 }
 
 .renounced-link {
-    color: #FFFFFF; /* Sets a blue color for the Renounced Txn link */
+    color: #1877f2; /* Sets a blue color for the Renounced Txn link */
 }
 
 .burnt-link {
-    color: #FFFFFF; /* Sets a red color for the Burnt Txn link */
+    color: #1877f2; /* Sets a red color for the Burnt Txn link */
 }
 
 .custom-text {
