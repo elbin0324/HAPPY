@@ -25,7 +25,7 @@ html, body {
 /* Mobile device styles */
 @media (max-width: 600px) {
     .main-image {
-        content: url('Basebookmobile.png'); /* Change to mobile image on small screens */
+        content: url('basebookmobile.png'); /* Change to mobile image on small screens */
     }
 }
 
