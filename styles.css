@@ -57,7 +57,7 @@ html, body {
 }
 
 .disclaimer-space {
-    height: 60px; /* Reduced the height for better spacing distribution */
+    height: 75px; /* Reduced the height for better spacing distribution */
 }
 
 .disclaimer-image {
