@@ -6,58 +6,51 @@
 <title>Based Happy</title>
 <style>
   body {
-    background-color: #87CEEB; /* Dark Blue */
+    background-color: #87CEEB; /* Sky Blue */
     color: white;
     font-family: 'Arial', sans-serif;
     margin: 0; /* Remove default margin */
-    flex-direction: column;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center children horizontally */
     justify-content: center; /* Center children vertically */
     height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text */
   }
   .header-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px; /* Adjust as necessary */
+    width: 50%; /* Set width of the image */
+    margin-top: 10px; /* Top margin */
   }
   .main-section {
-    background-color: #87CEEB; /* Dark Blue */
-    padding-top: 50px; /* Adjust top padding */
-    text-align: center;
-    padding-bottom: 30px; /* Space before the next section */
+    padding: 50px 20px; /* Padding around the section */
   }
   h1 {
     font-size: 3em; /* Increase font size */
     font-weight: bold; /* Make text bold */
-    margin-bottom: 0.2em; /* Adjust space below h1 */
   }
   p {
     margin-bottom: 2em; /* Increase space below paragraph */
   }
   .button {
-    background-color: transparent; /* Gold color */
-    border: 2px solid white;
-    color: white;
-    padding: 15px 30px; /* Adjust padding for the button */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px; /* Increase font size */
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px; /* Rounded corners for the button */
+    background-color: transparent; /* Transparent background */
+    border: 2px solid white; /* White border */
+    color: white; /* White text color */
+    padding: 15px 30px; /* Button padding */
+    font-size: 20px; /* Text size */
+    margin: 4px 2px; /* Margin around button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
   }
   .links-section {
-    padding-top: 20px; /* Adjust the space above the links section */
+    padding-top: 20px; /* Space above links */
   }
   a {
-    color: white; /* Anchor text color set to white */
-    text-decoration: none; /* Remove underline from links */
-    padding: 0 10px; /* Horizontal padding for links */
+    color: white; /* Text color */
+    text-decoration: none; /* No underline */
+    padding: 0 10px; /* Padding around links */
   }
   .footer-section {
-    padding-top: 30px; /* Adjust as necessary for the third section */
+    padding-top: 30px; /* Space above footer */
   }
 </style>
 </head>
@@ -66,10 +59,9 @@
 <img src="RealMeow.jpg" alt="Cat" class="header-img"> <!-- Add your image path -->
 
 <div class="main-section">
-  <h1>BASED LUNA</h1>
+  <h1>BASED Happy</h1>
   <p>ARE YOU READY TO GO TO THE MOON?</p>
 
-  <!-- Update the 'onclick' value with the URL you want to redirect to -->
   <button class="button" onclick="window.location.href='https://your-redirect-url.com';">JOIN THE MISSION</button>
 </div>
 
@@ -86,4 +78,5 @@
 
 </body>
 </html>
+
 
