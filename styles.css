@@ -23,14 +23,7 @@ html, body {
     margin: 0 auto; /* Center images horizontally with no vertical margins */
 }
 
-/* Mobile device styles */
-@media (max-width: 600px) {
-    .main-image {
-        content: url('basebookmobile(3).png'); /* Change to mobile image on small screens */
-           width: 150%;
-        height: auto;
-    }
-}
+
 
 .sub-image {
     max-width: 50%; /* Set the maximum width of the sub-images to 50% */
